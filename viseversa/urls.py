@@ -19,5 +19,5 @@ from . import vies
 
 urlpatterns = [
     path('',vies.home),
-
+	path('reverse/',vies.reverse, name='reverse'),
 ]
